@@ -1,0 +1,73 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@font-face {
+    src: url(assets/font/playfair_9pt-bold.ttf);
+    font-family: playfair_9pt-bold;
+}
+@font-face {
+    font-family: Playfair_9pt-Regular;
+    src: url(assets/font/Playfair_9pt-Regular.ttf);
+}
+
+/* header part */
+
+header{
+}
+
+.container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    overflow: hidden;
+    border: 1px solid;
+}
+.logo{    
+    
+    width: 10%;
+    float: left;
+    border: 1px solid;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+
+.menu{   
+    width: 75%;
+    float: right;
+    border: 1px solid;
+   
+}
+ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    padding: 0 60px;
+}
+
+.menu ul li a{
+    padding: 5px 10px;
+    display: inline-block;  
+    color: #626262;  
+    font-family: Playfair_9pt-Regular;
+    font-size: 16px;
+    text-decoration: none;    
+    text-transform: uppercase;
+  
+}
+
+
+
